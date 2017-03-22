@@ -13,16 +13,17 @@ var shoes = ["heels", "sneakers"];
 var shoes = [ ["manolo", "zanotti"], ["nike", "adidas"] ];
 console.log(shoes);
 // answer #3
-x = 105
-if (x < 100){
- console.log("this is less than 100");
-}else if (x > 100){
-  console.log("x is 105 and greater than 100")
+var number = x
+if (x < 100) {
+  console.log("this is less than 100");
+} else {
+  console.log("x" + "is greater than 100");
 }
 // answer #4
-function me(Tammy){
-    console.log(me)
+var person = function(name) {
+    console.log(name);
   }
+  person('Tammy');
 // answer #5
 function game(door){
     if (door===1){
